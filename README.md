@@ -1,2 +1,2 @@
-# vagdeviCollege
+# Vagdevi College
 vagdeviCollege
