@@ -1,0 +1,152 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/lib/banner.png": {
+    "file": "_app/immutable/assets/banner.bcc70fc0.png",
+    "src": "src/lib/banner.png"
+  },
+  "src/lib/banner2.png": {
+    "file": "_app/immutable/assets/banner2.c28c2659.png",
+    "src": "src/lib/banner2.png"
+  },
+  "src/lib/banner3.png": {
+    "file": "_app/immutable/assets/banner3.5bba47d4.png",
+    "src": "src/lib/banner3.png"
+  },
+  "src/lib/vaghero.jpeg": {
+    "file": "_app/immutable/assets/vaghero.a5e267f0.jpeg",
+    "src": "src/lib/vaghero.jpeg"
+  },
+  "src/lib/vcorres.jpg": {
+    "file": "_app/immutable/assets/vcorres.78f583a5.jpg",
+    "src": "src/lib/vcorres.jpg"
+  },
+  "src/lib/vg1.jpg": {
+    "file": "_app/immutable/assets/vg1.5f8c75ba.jpg",
+    "src": "src/lib/vg1.jpg"
+  },
+  "src/lib/vg1s.png": {
+    "file": "_app/immutable/assets/vg1s.c294bfe1.png",
+    "src": "src/lib/vg1s.png"
+  },
+  "src/lib/vg2.jpg": {
+    "file": "_app/immutable/assets/vg2.65a31de4.jpg",
+    "src": "src/lib/vg2.jpg"
+  },
+  "src/lib/vg3.jpg": {
+    "file": "_app/immutable/assets/vg3.acd72e1c.jpg",
+    "src": "src/lib/vg3.jpg"
+  },
+  "src/lib/vprinci.jpeg": {
+    "file": "_app/immutable/assets/vprinci.cb754a29.jpeg",
+    "src": "src/lib/vprinci.jpeg"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout.eee30809.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.svelte": {
+    "assets": [
+      "_app/immutable/assets/banner3.5bba47d4.png"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.eee30809.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page.bfbbe4f5.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/vaghero.a5e267f0.jpeg"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.bfbbe4f5.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/about/+page.svelte"
+  },
+  "src/routes/administration/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/vcorres.78f583a5.jpg",
+      "_app/immutable/assets/vprinci.cb754a29.jpeg"
+    ],
+    "file": "entries/pages/administration/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/administration/+page.svelte"
+  },
+  "src/routes/courses/+page.svelte": {
+    "file": "entries/pages/courses/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/courses/+page.svelte"
+  },
+  "src/routes/gallery/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/vg1.5f8c75ba.jpg",
+      "_app/immutable/assets/vg1s.c294bfe1.png"
+    ],
+    "file": "entries/pages/gallery/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/gallery/+page.svelte"
+  }
+}

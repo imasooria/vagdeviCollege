@@ -5,6 +5,8 @@
     import banner3 from '$lib/banner3.png';
 </script>
 
+<p class="h5 centre"> <i class="bi bi-telephone-outbound"></i> &nbsp;9133005511 / 9133005544 &nbsp; <i class="bi bi-envelope-fill"></i>  &nbsp; vijethavenkatreddy@gmail.com </p>
+
 <a class="nav-link active" aria-current="page" href="/"><img class="image" src={banner3} alt="" sizes="" srcset=""></a>
 
 <nav class="navbar navbar-expand-lg nav-bck" aria-label="navbar ">
@@ -13,7 +15,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <div class="collapse navbar-collapse justify-content-md-around" id="navbarsExample08">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link font" aria-current="page" href="/">Home</a>
@@ -33,6 +35,7 @@
                     <a class="nav-link dropdown-toggle font" href="#" data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/courses">Courses Offered</a></li>
+                        <li><a class="dropdown-item" href="/courses">Coaching Offered</a></li>
                     </ul>
                 </li>
 
@@ -41,6 +44,10 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item " href="/gallery">College Gallery</a></li>
                     </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link font" href="/contactus">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -70,5 +77,19 @@
 
     .font {
         color: #F6E399;
+    }
+
+    .centre {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color:  #194e48;
+        font-size: large
+    }
+
+    @media (max-width: 767px) {
+        .centre {
+            display: none;
+        }
     }
 </style>
