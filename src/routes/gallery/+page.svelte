@@ -4,8 +4,6 @@
     import i2 from "$lib/vg2.jpg";
     import i3 from "$lib/vg3.jpg";
 
-
-    
 </script>
 
 
