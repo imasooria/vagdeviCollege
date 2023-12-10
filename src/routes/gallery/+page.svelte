@@ -3,7 +3,6 @@
     import i1s from "$lib/vg1s.png";
     import i2 from "$lib/vg2.jpg";
     import i3 from "$lib/vg3.jpg";
-    import i5 from "$lib/vg5.jpg";
 
 
     
