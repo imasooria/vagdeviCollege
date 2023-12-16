@@ -28,7 +28,7 @@
 
             <GalleryImage image={i4s} imgFull={i4s} description="Vagdevi student performances to collector office" id="m4" modalDescription="Vagdevi students given traditional dance performance at collectorate office on the occasion of Telangana formation day"/>
             <GalleryImage image={i8s} imgFull={i8s} description="Model NEET exam conducted by Malla reddy group of institutions" id="m8" modalDescription="Malla reddy group of institutions conducted model NEET exam at our campus supervised by MR. MD. Shakeer, lecturer in zoology"/>
-            <GalleryImage image={i9s} imgFull={i9s} description="Model TS EAMCET exam conducted by SFI " id="m8" modalDescription="SFI (Student Federation of India) conducted model TS EAMCET exam at our campus supervised by MR. MD. Shakeer, lecturer in zoology"/>
+            <GalleryImage image={i9s} imgFull={i9s} description="Model TS EAMCET exam conducted by SFI " id="m9" modalDescription="SFI (Student Federation of India) conducted model TS EAMCET exam at our campus supervised by MR. MD. Shakeer, lecturer in zoology"/>
 
         </div>
     </div>
