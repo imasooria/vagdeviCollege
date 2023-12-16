@@ -6,6 +6,7 @@
     import c4 from  "$lib/carousel/c4.png";
     import c5 from  "$lib/carousel/c5.png";
     import CarouselImage from "./CarouselImage.svelte";
+    import Carousel from "./Carousel.svelte";
 </script>
 
 
@@ -14,43 +15,13 @@
         <p class="lead">
             Vagdevi junior college & IIT-NEET academy is located at new town, Mahabubnagar, Telangana. Since its inception,
             it has produced considerable state and all india ranks in IIT-JEE (mains & advanced), NEET, EAMCET and Intermediate.
-            Striving best for the success of students and reaching the expectations of parents. Education with moral'
+            Striving best for the success of students and reaching the expectations of parents. EDUCATION WITH MORAL VALUES'
         </p>
     </div>
 </div>
 
-<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
-    </div>
-    <div class="carousel-inner">
-        <CarouselImage img={c1} />
-        <CarouselImage img={c2} />
+<Carousel />
 
-        <div class="carousel-item active">
-            <div class="d-flex justify-content-center">
-                <img width="400px" height="400px"  aria-hidden="true"  src={c3} alt="s"/>
-            </div>
-        </div>
-
-        <CarouselImage img={c4} />
-        <CarouselImage img={c5} />
-    </div>
-
-    <button class="carousel-control-prev cnav" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next cnav" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-
-</div>
 
 <div class="container my-5">
     <div class="p-5 text-center bg-body-tertiary rounded-3">

@@ -29,6 +29,7 @@
                         <li><a class="dropdown-item" href="/administration#correspondent">Correspondent</a></li>
                         <li><a class="dropdown-item" href="/administration#principal">Principal</a></li>
                         <li><a class="dropdown-item" href="/administration#vprincipal">Vice Principal</a></li>
+                        <li><a class="dropdown-item" href="/administration#academyIncharge">Academy In-charge</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown font">

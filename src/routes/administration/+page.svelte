@@ -2,6 +2,7 @@
     import correspondent from "$lib/vcorres.jpg";
     import principal from "$lib/vprinci.jpeg";
     import vicePrincipal from "$lib/vicep.jpg"
+    import academyIncharge from "$lib/academyIncharge.png"
 </script>
 
 
@@ -60,3 +61,19 @@
         </div>
     </div>
 </div>
+
+
+<div class="container my-5" id="academyIncharge">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h3 class="display-5 fw-bold lh-1 text-body-emphasis">Smt. Y Pavani Reddy</h3>
+            <p class="display-6 lh-1 text-body-emphasis">Academy In-charge </p>
+            <p class="display-6 lh-1 text-body-emphasis">Department of Chemistry </p>
+
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded-lg-3" src={academyIncharge} alt="viacademyInchargecePrincipal" width="100%">
+        </div>
+    </div>
+</div>
+
